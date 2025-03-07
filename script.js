@@ -36,3 +36,7 @@ score = score * (-3);
 console.log(score);
 score = score / 5;
 console.log(score);
+
+// Above statements log the VALUES sotred in variables
+// Below statement logs a literal String
+console.log("lunch");
