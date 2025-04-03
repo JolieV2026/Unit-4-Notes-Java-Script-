@@ -69,3 +69,25 @@ let grilledCheese = makeSandwich("cheese", "toast", "butter");
 console.log(grilledCheese);
 let caprese = makeSandwich("tomato mozz", "ciabatta", "pesto");
 console.log(caprese);
+
+// IF STATEMENTS evaluate a condition 
+// then execute a block of code if TRUE
+let age = 18;
+// "is your age equal to 16"
+if (age == 16) {
+    console.log("Happy sweet sixteen!");
+}
+else {
+    console.log("You can't have a sweet sixteen party");
+}
+
+// To test MULTIPLE conditions, use ELSE-IF statemnts 
+if (age == 18) {
+    console.log("Congrats on your first time voting!");
+}
+else if (age > 18) {
+    console.log("Go vote!");
+}
+else{
+    console.log("You're too young to vote...");
+}
