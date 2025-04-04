@@ -91,3 +91,15 @@ else if (age > 18) {
 else{
     console.log("You're too young to vote...");
 }
+
+// All expressions that include comparison operators get evaluated and return a boolean value: either true or false
+console.log( 2 > 1 ); 
+
+//A comparison result can be assigned to a variable, just like any value:
+let result = 10 > 4; // assign the result of the comparison
+console.log( result ); 
+
+//To see whether a string is greater than another, JavaScript uses the so-called “dictionary” or “lexicographical” order. In other words, strings are compared letter-by-letter
+console.log( 'J' > 'A' ); 
+console.log('Green'=='Blue');
+console.log('Happy'=='Happy');
